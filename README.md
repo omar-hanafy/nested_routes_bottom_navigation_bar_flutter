@@ -3,14 +3,14 @@
 
 ## Table Of Content.
 
-- [Table Of Content.](#table-of-content)
-- [ℹ️ About](#---about)
-- [📱 App Preview](#---app-preview)
-- [⁉️️ What Is Navigator 2.0](#----what-is-navigator-20)
-- [📑 Stacked Routes Concept](#---stacked-routes-concept)
-- [📦 Bloc Package.](#---bloc-package)
-- [👨🏽‍💻 Who Am I.](#--------who-am-i)
-- [References](#references)
+- [📖 Table Of Content.](#📖-table-of-content.)
+- [ℹ️ About.](#ℹ️-about.)
+- [📱 App Preview.](#📱-app-preview.)
+- [⁉️️ What Is Navigator 2.0.](#⁉-what-is-navigator-20.)
+- [📑 Stacked Routes Concept.](#📑-stacked-routes-concept.)
+- [📦 Bloc Package.](#📦-bloc-package.)
+- [💻 Who Am I.](#💻-Who-am-i.)
+- [📌 References.](#📌-references.)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 

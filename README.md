@@ -8,7 +8,7 @@
 - [📑 Stacked Routes Concept](#---stacked-routes-concept)
 - [📦 Bloc Package.](#---bloc-package)
 - [👨🏽‍💻 Who Am I.](#--------who-am-i)
-- [Refrences](#refrences)
+- [References](#refrences)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -33,9 +33,9 @@ I used the bloc package here just to inject an instance of the RouterDelegates, 
 
 ## 👨🏽‍💻 Who Am I.
 I am Omar Khaled, I am a front-end mobile developer. I love open source projects because it saves developer's time, and it's actually helped my to become what I am now.
-  LinkedIn: [in/omar-hanafy](https://www.linkedin.com/in/omar-hanafy)
-  Email: omar_hanafy@icloud.com
+LinkedIn: [in/omar-hanafy](https://www.linkedin.com/in/omar-hanafy)
+Email: omar_hanafy@icloud.com
 
-## Refrences
-Navigation 2.0 definition: [Raywenderlich](https://www.raywenderlich.com/19457817-flutter-navigator-2-0-and-deep-links)
-Navigator delegate/deep links code: [Lee Phillips](https://github.com/theLee3/flutter_nav_demo)
+## References
+- Navigation 2.0 definition: [Raywenderlich](https://www.raywenderlich.com/19457817-flutter-navigator-2-0-and-deep-links)
+- Navigator delegate/deep links code: [Lee Phillips](https://github.com/theLee3/flutter_nav_demo)

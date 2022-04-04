@@ -1,18 +1,16 @@
 <p align="center">
 <h1 align="center">Flutter - Nested Routes With BottomNavigationBar And Deep Links For WEB</h1>
 
-## Table Of Content.
+## 📖 Table Of Content.
 
-- [📖 Table Of Content.](#📖-table-of-content.)
-- [ℹ️ About.](#ℹ️-about.)
-- [📱 App Preview.](#📱-app-preview.)
-- [⁉️️ What Is Navigator 2.0.](#⁉-what-is-navigator-20.)
-- [📑 Stacked Routes Concept.](#📑-stacked-routes-concept.)
-- [📦 Bloc Package.](#📦-bloc-package.)
-- [💻 Who Am I.](#💻-Who-am-i.)
-- [📌 References.](#📌-references.)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [📖 Table Of Content](#📖-table-of-content)
+- [ℹ️ About](#ℹ️-about)
+- [📱 App Preview](#📱-app-preview)
+- [⁉️️ What Is Navigator 2.0](#⁉-what-is-navigator-20)
+- [📑 Stacked Routes Concept](#📑-stacked-routes-concept)
+- [📦 Bloc Package](#📦-bloc-package)
+- [💻 Who Am I](#💻-Who-am-i)
+- [📌 References](#📌-references)
 
 ## ℹ️ About
 
@@ -33,11 +31,11 @@ The Navigator 2.0 is a list of pages created using RouterDelegate class. and in 
 ## 📦 Bloc Package.
 I used the bloc package here just to inject an instance of the RouterDelegates, so I can easily call push/pop anywhere I want. You can use getIt or Provider whatever you prefer.
 
-## 👨🏽‍💻 Who Am I.
+## 👨🏽‍💻 Who Am I
 I am Omar Khaled, I am a front-end mobile developer. I love open source projects because it saves developers time, and it's actually helped me to become what I am now.
 LinkedIn: [in/omar-hanafy](https://www.linkedin.com/in/omar-hanafy)
 Email: omar_hanafy@icloud.com
 
-## References
+## 📌 References
 - Navigation 2.0 definition: [Raywenderlich](https://www.raywenderlich.com/19457817-flutter-navigator-2-0-and-deep-links)
 - Navigator delegate/deep links code: [Lee Phillips](https://github.com/theLee3/flutter_nav_demo)

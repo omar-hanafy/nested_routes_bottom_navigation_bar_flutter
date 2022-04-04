@@ -3,7 +3,7 @@
 
 ## 📖 Table Of Content.
 
-- [ℹ️ About](#-about)
+- [ℹ️ About](#ℹ️-about)
 - [App Preview](#app-preview)
 - [️ What Is Navigator 2.0](#what-is-navigator-20)
 - [Stacked Routes Concept](#stacked-routes-concept)

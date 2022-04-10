@@ -1,8 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import '../navigation_bar/navigation_bar.dart';
-import '../router/router.dart';
+import '../router/go_router_cubit.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -22,9 +23,9 @@ class HomeScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 if (kIsWeb) {
-                  context.read<DelegateCubit>().state.pushPage(name: "/account");
+                  context.go("/account");
                 } else {
-                  context.read<HomeDelegateCubit>().state.pushPage(name: '/account');
+                  context.read<HomeRouterCubit>().state.push('/account');
                 }
               },
               child: const Text(

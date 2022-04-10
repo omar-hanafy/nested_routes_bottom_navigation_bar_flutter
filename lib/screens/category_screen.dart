@@ -1,8 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import '../navigation_bar/navigation_bar.dart';
 import '../router/router.dart';
+import '../router/go_router_cubit.dart';
 
 class CategoryScreen extends StatelessWidget {
   const CategoryScreen({Key? key}) : super(key: key);
@@ -22,9 +24,9 @@ class CategoryScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 if (kIsWeb) {
-                  context.read<DelegateCubit>().state.pushPage(name: "/account");
+                  context.go("${context.read<GoRouterCubit>().state.location}/account");
                 } else {
-                  context.read<CategoryDelegateCubit>().state.pushPage(name: '/account');
+                  context.read<CategoryRouterCubit>().state.push('/account');
                 }
               },
               child: const Text(

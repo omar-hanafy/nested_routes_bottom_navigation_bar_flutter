@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'router/router.dart';
+import 'router/go_router_cubit.dart';
 import 'simple_bloc_observer.dart';
 
 void main() {
@@ -8,7 +8,7 @@ void main() {
     () async {
       runApp(
         BlocProvider(
-          create: (_) => DelegateCubit(),
+          create: (_) => GoRouterCubit(),
           child: const MyApp(),
         ),
       );
@@ -17,26 +17,15 @@ void main() {
   );
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  void initState() {
-    super.initState();
-    context.read<DelegateCubit>().state.pushPage(name: '/');
-  }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      onGenerateTitle: (BuildContext context) => "SaniTary",
-      routerDelegate: context.read<DelegateCubit>().state,
-      routeInformationParser: const MyRouteInformationParser(),
+      onGenerateTitle: (BuildContext context) => "Nested Routes Navigation Bar",
+      routerDelegate: context.read<GoRouterCubit>().state.routerDelegate,
+      routeInformationParser: context.read<GoRouterCubit>().state.routeInformationParser,
     );
   }
 }

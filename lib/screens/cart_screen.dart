@@ -2,8 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import '../navigation_bar/navigation_bar.dart';
-import '../router/go_router_cubit.dart';
+import '../router/router.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({Key? key}) : super(key: key);
@@ -27,7 +26,7 @@ class CartScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 if (kIsWeb) {
-                  context.go("${context.read<GoRouterCubit>().state.location}/account");
+                  context.go("${context.read<AppRouterCubit>().state.location}/account");
                 } else {
                   context.read<CartRouterCubit>().state.push('/account');
                 }

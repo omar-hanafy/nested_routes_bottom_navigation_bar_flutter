@@ -1,0 +1,1 @@
+abstract class Regexes {  static const String regexUrl = '(https?://.*.(jpg|jpeg|png|gif))';  static final hasArabicLetters = RegExp(r'[\u0600-\u06FF]');}

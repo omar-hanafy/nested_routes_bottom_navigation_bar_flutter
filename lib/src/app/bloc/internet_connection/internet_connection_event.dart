@@ -1,0 +1,1 @@
+part of 'internet_connection_bloc.dart';abstract class InternetConnectionEvent extends Equatable {  const InternetConnectionEvent();}class CheckConnection extends InternetConnectionEvent{  @override  List<Object?> get props => [];}

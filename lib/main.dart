@@ -1,19 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import 'router/app_router_cubit.dart';
 import 'simple_bloc_observer.dart';
 
 void main() {
-  return BlocOverrides.runZoned(
-    () async {
-      runApp(
-        BlocProvider(
-          create: (_) => AppRouterCubit(),
-          child: const MyApp(),
-        ),
-      );
-    },
-    blocObserver: SimpleBlocObserver(),
+  Bloc.observer = SimpleBlocObserver();
+  runApp(
+    BlocProvider(
+      create: (_) => AppRouterCubit(),
+      child: const MyApp(),
+    ),
   );
 }
 

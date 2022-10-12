@@ -31,7 +31,8 @@ The Navigator 2.0 is a list of pages created using RouterDelegate class. and in 
 I used the bloc package here just to inject an instance of the RouterDelegates, so I can easily call push/pop anywhere I want. You can use getIt or Provider whatever you prefer.
 
 ## Who Am I
-I am Omar Khaled, I am a front-end mobile developer. I love open source projects because it saves developers time, and it's helped me to become what I am now.
+I am Omar Khaled, I am a front-end mobile developer. I love open source projects because it saves developers time, and it helped me to become what I am now.
+Website: [omarkhaled.web.app](https://omarkhaled.web.app)
 LinkedIn: [in/omar-hanafy](https://www.linkedin.com/in/omar-hanafy)
 Email: omar_hanafy@icloud.com
 
